@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!*.ps1
+
+# ...even if they are in subdirectories
+!**/
+
+# Explicitly ignore folder contents
+/**/
+
+# Except for .ps1 files in any directory
+!/**/*.ps1
